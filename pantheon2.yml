@@ -4,7 +4,6 @@ repositories:
   - name: llu
     modules:
       #- modules/**/*.adoc
-      - modules/**/*.adoc
-    resources:
-    attributes:
-      - modules/Examples/attr/attsFile.adoc
+      - modules/**/ref_decision-examples-state-ref.adoc
+      - modules/**/con_decision-examples-banking-ref.adoc
+    resources:    
