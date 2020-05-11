@@ -1,6 +1,10 @@
-server: http://localhost:8080
-repository: llu
-followlinks: true
-
-modules:
- - modules/**/*.adoc
+server: http://localhost:8181
+#server: https://pantheon.corp.redhat.com
+repositories:
+  - name: llu
+    modules:
+      #- modules/**/*.adoc
+      - modules/**/*.adoc
+    resources:
+    attributes:
+      - modules/Examples/attr/attsFile.adoc
